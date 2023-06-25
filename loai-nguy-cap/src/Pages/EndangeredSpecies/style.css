@@ -1,0 +1,75 @@
+
+
+.page-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.content-modal_addnew{
+    background-color: white;
+}
+.user-icon{
+    color: #D92A1C;
+}
+.content-search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right:10px ;
+    border: solid 0.5px #EDEFF5;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.wrap-search div i{
+    opacity: 0.6;
+}
+.search-input{
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-left: 4px;
+}
+
+.content-modal_addnew h2{
+    background-color: #D92A1C;
+    color: white;
+    padding: 10px;
+}
+.content-modal_addnew p{
+    margin: 0 20px 30px;
+}
+.content-modal_addnew div{
+    padding: 20px;
+    text-align: end;
+}
+.btn-cancel{
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: 600;
+    border: solid 1px;
+    font-size: 16px;
+}
+.btn-cancel:hover{
+    background-color: #EDEDED;
+}
+
+.btn-delete{
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #FF5252;
+    border: solid 1px #FF5252;
+    font-size: 16px;
+}
+.btn-delete:hover{
+    background-color: #FFF3F2;
+}

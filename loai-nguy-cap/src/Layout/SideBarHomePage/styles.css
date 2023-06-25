@@ -1,0 +1,60 @@
+aside {
+  min-width: 20%;
+  height: calc(100vh - 130px);
+  border-right: 1px #e3e3e3 solid;
+  grid-area: sidebar;
+}
+aside p {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 26px 0 0 0;
+}
+.remove-check {
+  font-size: 0.8rem;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.remove-check span {
+  text-align: center;
+  background-color: #1c4c75;
+  font-size: 1rem;
+  height: 20px;
+  width: 20px;
+}
+
+.sidebar-list {
+  max-height: calc(100% - 51px);
+  overflow: auto;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.sidebar-item {
+  display: flex;
+  border-top: 1px #e3e3e3 solid;
+  padding: 4px 0;
+}
+.sidebar-item b {
+  padding: 0 10px;
+}
+
+.sidebar-option {
+  max-height: 40vh;
+  overflow: hidden;
+  overflow: auto;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+
+}
+.sidebar-option::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-select {
+  border-top: 1px #e3e3e3 solid;
+  padding: 4px 0;
+}

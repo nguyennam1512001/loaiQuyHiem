@@ -1,0 +1,160 @@
+
+.header-authpage{
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.logo.auth{
+    background-color: white;
+}
+
+.wrap-infor{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.infor{
+    display: flex;
+}
+.infor-sub{
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-flow: column;
+    display: none;
+}
+
+.infor-name{
+    margin: 0 10px;
+}
+
+.body-authpage{
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+
+main{
+    height: 100vh;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.active{
+    color: #3C4043;
+    background-color: #F2F6F9;
+}
+
+.wrap-search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.select{
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.wrap-filter{
+    height: 100px;
+    background-color: #F4F6F9;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.add-new{
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    background-color: #DD3E32;
+    border: none;
+    border-radius: 5px;
+    min-width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.wrap-table{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.wrap-scroll{
+    position: relative;
+    overflow: auto;
+}
+.wrap-scroll thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}  
+thead{
+    width: 1000px;
+}
+tr {
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+  
+tr:hover {
+    background-color: #eee !important;
+}
+  
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+  
+td {
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination li{
+    padding: 6px 10px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.user-icon{
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: #AFDAC5;
+}

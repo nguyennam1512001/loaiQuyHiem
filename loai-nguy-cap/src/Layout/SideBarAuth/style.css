@@ -1,0 +1,29 @@
+.sidebar-item_auth {
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+}
+
+.active{
+    background-color: #F2F6F9;
+    color: black;
+}
+
+.sidebar-item_icon{
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+
+.item-name{
+    width: 80%;
+    font-size: 14px;
+    margin: 20px 0 20px 30px;
+    white-space: nowrap;
+    transition: width 0.5s ease;
+}
+
+.item-name.item-name_toggle{
+    width: 0;
+    opacity: 0;
+}

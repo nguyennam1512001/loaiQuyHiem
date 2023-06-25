@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  background-color: #4c4b4a;
+  height: 40px;
+  grid-area: nav;
+  justify-content: space-between;
+}
+.nav-list {
+  margin: 0;
+  height: 100%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.nav-item {
+  display: flex;
+  height: 100%;
+  margin: 0 10px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  padding: 0 10px;
+}
+.nav-link i {
+  margin-right: 8px;
+}
+.nav-link.active {
+  background-color: #2a2525;
+}
+
+.fa-file-excel{
+  padding:0 10px;
+  font-size: 1.6rem;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  background-color: #2A2525;
+  color: white;
+}

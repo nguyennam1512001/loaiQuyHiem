@@ -1,0 +1,61 @@
+.fieldset{
+    position: relative;
+    padding: 0 4px;
+}
+
+.fieldset input{
+    width: 100%;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.wrap_form{
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+}
+.head-form{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D92A1C;
+    color: white;
+}
+
+.head-form i{
+    font-size: 30px;
+    color: white;
+}
+
+.form{
+    padding: 20px;
+}
+
+.list-permiss{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.item-permiss {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin: 4px 3px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.fieldset .input-permiss{
+    width: auto;
+}
+
+.close:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.footer-form{
+    text-align: end;
+}

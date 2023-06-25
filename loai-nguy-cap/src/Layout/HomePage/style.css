@@ -1,0 +1,131 @@
+.container{
+  display: grid;
+  grid-template-areas: 
+  'nav nav nav nav'
+  'sidebar  listLoai listLoai listLoai '
+  ;
+}
+
+/* content */
+.content-wrap {
+    width: 100%;
+    grid-area: listLoai;
+  }
+  .content {
+    padding: 10px;
+  }
+  .animal-list_more,
+  .animal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .animal-item {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 5px black;
+    border: 1px #e3e3e3 solid;
+    width: 31%;
+    margin: 10px 0;
+  }
+  
+  .animal-img {
+    width: 100%;
+    height: 200px;
+  }
+  .animal-content {
+    padding: 10px;
+  }
+  .animal-content_infor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .animal-content_htl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .animal-content_htl span {
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #e91e63;
+    border-radius: 50%;
+  }
+  .animal-content_htl .span2 {
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f44336;
+    border-radius: 50%;
+  }
+  .see-more_bang,
+  .see-more_luoi {
+    margin: auto;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: black;
+  }
+  .see-more_luoi-check {
+    display: none;
+  }
+  /* bang content */
+  .sort-select {
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+  }
+  .table-animal {
+    width: 100%;
+  }
+  .tbody-more td,
+  .tbody td {
+    padding: 8px 0;
+  }
+  .tbody-more tr td,
+  .tbody tr td {
+    font-size: 12px;
+    width: 25%;
+  }
+  /* thong ke content */
+  .myChart-wrap {
+    width: 500px;
+    border: 1px #ccd1d2 solid;
+  }
+  
+  
+  /* test */
+  .test-ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .active{
+    color: #e91e63;
+  }
+  .wrap-test{
+    width: 50%;
+    height: 400px;
+  }
+  .goToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+  }

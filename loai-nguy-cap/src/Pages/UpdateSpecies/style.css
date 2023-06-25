@@ -1,0 +1,26 @@
+.AddNewSpecies-header{
+    display: flex;
+    align-items: center;
+}
+
+.AddNewSpecies-header h4{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+}
+
+.AddNewSpecies-header .update-time{
+    text-align: center;
+}
+
+.AddNewSpecies-header .update-time b{
+    font-weight: 500;
+}
+
+.category{
+    padding:10px 0 20px 10px;
+}
